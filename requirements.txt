@@ -1,0 +1,13 @@
+pandas
+pyarxiv
+requests
+tika
+jupyter
+wikipedia
+bs4
+numpy
+scholarly
+free-proxy
+regex
+dpla
+entrezpy
