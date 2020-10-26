@@ -33,7 +33,7 @@ def scrape_arxiv(query,pages=50,year=0):
 
   # parse data in more readable form 
   text = data.decode('utf-8')
-  soup = BeautifulSoup(text,'xml')
+  soup = BeautifulSoup(text, features='lxml')
 
   count = 0 
 
