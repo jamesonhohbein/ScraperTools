@@ -1,6 +1,6 @@
-from pdf import extract_pdf
-from scihub import extract_scihub
-from html import extract_html
+from scrapers.extract.pdf import extract_pdf
+from scrapers.extract.scihub import extract_scihub
+from scrapers.extract.html import extract_html
 import pandas as pd
 import requests
 from bs4 import BeautifulSoup
