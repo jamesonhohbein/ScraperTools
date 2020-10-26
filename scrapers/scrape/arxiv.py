@@ -3,8 +3,8 @@ import pandas as pd
 from bs4 import BeautifulSoup
 
 
-import saveandload
-import alreadyexist
+from scrapers.run.saveandload import saveandload
+# import alreadyexist
 
 
 
