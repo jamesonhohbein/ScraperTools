@@ -1,6 +1,7 @@
 from .. import logger
 from scrapers.extract import extract_text
-import arxiv 
+from arxiv import scrape_arxiv
+import pandas as pd
 
 db_fctns = {
     #'core': scrape_core,
