@@ -3,7 +3,7 @@ import pandas as pd
 from bs4 import BeautifulSoup
 
 
-from scrapers.run.saveandload import saveandload
+from scrapers.run.saveandload import saveCSV
 # import alreadyexist
 
 
