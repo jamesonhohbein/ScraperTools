@@ -12,8 +12,8 @@ from scrapers.run.saveandload import saveCSV
 def scrape_arxiv(query,pages=50,year=0):
 
   # load the old data to check if incoming titles already exist or not 
-  oldDf = loadCSV(query) 
-  oldquery = query
+  # oldDf = loadCSV(query) 
+  # oldquery = query
 
   #no spaces allowed in the api. Uses pluses
   query = query.replace(' ',"+")
@@ -100,8 +100,8 @@ def scrape_arxiv(query,pages=50,year=0):
     Database = 'Arxiv'
 
     # check to see if the title exists in the old data, if it does, skip to the next 
-    if alreadyExists(title,oldquery,oldDf) == True:
-      continue
+    # if alreadyExists(title,oldquery,oldDf) == True:
+      # continue
 
     # set to dataframe 
     df.loc[count,'Link'],df.loc[count,'Link Type'],df.loc[count,'Database'],df.loc[count,'Title'],df['Page'],df.loc[count,'Authors'],df.loc[count,'Date'],df.loc[count,'Abstract'],df.loc[count,'Meta'] = link,linkType,Database,title,page,authors,date,summary,meta
