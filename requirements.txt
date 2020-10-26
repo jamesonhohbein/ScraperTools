@@ -11,3 +11,4 @@ free-proxy
 regex
 dpla
 entrezpy
+cleantext
