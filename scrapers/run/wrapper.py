@@ -1,4 +1,4 @@
-from saveandload import saveCSV
+from scrapers.run.saveandload import saveCSV
 # import alreadyexist
 
 '''
