@@ -1,5 +1,5 @@
 from .. import logger
-from scrapers.extract import extract_text
+from scrapers.extract.text import extract_text
 from arxiv import scrape_arxiv
 import pandas as pd
 
