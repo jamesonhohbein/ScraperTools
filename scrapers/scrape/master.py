@@ -1,10 +1,11 @@
 from .. import logger
 from scrapers.extract.text import extract_text
 from scrapers.scrape.arxiv import scrape_arxiv
+from scrapers.scrape.core import scrape_core
 import pandas as pd
 
 db_fctns = {
-    #'core': scrape_core,
+    'core': scrape_core,
             # 'elsevier': scrape_elsevier,
             'arxiv': scrape_arxiv
             # 'dpla': scrape_dpla,
