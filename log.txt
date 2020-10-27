@@ -1,3 +1,18 @@
 Could not extract text from arxiv for "vegetables"
 Could not extract text from arxiv for "vegetables"
 Could not extract text from arxiv for "vegetables"
+Could not extract fields from http://arxiv.org/pdf/2010.07198v2
+Could not extract fields from http://arxiv.org/pdf/2010.01757v1
+Could not extract fields from http://arxiv.org/pdf/2010.07198v2
+Could not extract fields from http://arxiv.org/pdf/2010.01757v1
+Could not extract text from arxiv for "vegetables"
+Extracted fields from http://arxiv.org/pdf/2010.07198v2
+Extracted fields from http://arxiv.org/pdf/2010.01757v1
+Extracted fields from http://arxiv.org/pdf/1912.07440v1
+Extracted fields from http://arxiv.org/pdf/2010.07198v2
+Extracted fields from http://arxiv.org/pdf/1912.10922v1
+Extracted fields from http://arxiv.org/pdf/1405.0785v1
+Extracted fields from http://arxiv.org/pdf/1412.3503v1
+Extracted fields from http://arxiv.org/pdf/2010.01757v1
+Extracted fields from http://arxiv.org/pdf/1802.04622v1
+Extracted text from 7 articles from arxiv for "vegetables"
