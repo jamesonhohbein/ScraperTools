@@ -1,7 +1,9 @@
 import pandas as pd
 import re
 from tika import parser
-# from cleantext import clean
+from cleantext import clean
+import nltk
+nltk.download('stopwords')
 
 def extract_pdf(url):
   '''
@@ -18,7 +20,7 @@ def extract_pdf(url):
   text = pdfFile["content"].strip()
 
   # do minmal cleaning on text 
-  # text = clean(text)#,no_line_breaks=True) caused an error
+  text = clean(text)#,no_line_breaks=True) caused an error
   # print(text)
   abstract = conclusion = references = 'NA'
 
