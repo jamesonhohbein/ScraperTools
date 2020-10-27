@@ -30,7 +30,7 @@ def extract_text(df):
     # checks for fields already filled
     for field in fields:
 
-      if row[field].lower() not in ['na', 'nan']:
+      if row[field] not in ['na', 'nan', 'NA', 'NaN']:
 
         # keeps field the same
         fields.remove(field)
