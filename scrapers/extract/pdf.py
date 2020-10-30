@@ -37,7 +37,7 @@ def extract_pdf(url):
     abstract = post_abstract[:post_abstract.index('\n\n')].strip()
 
   except:
-    pass
+    abstract = text[:500]
 
   #Get CONCLUSION
   try:
@@ -73,7 +73,8 @@ def extract_pdf(url):
     #return the full body text of the article without the citations.
     fulltext = text.split(keyword,1)[0].strip() 
 
-
+    if len(fulltext) < 1000:
+      fulltext = text
 
     #Create Exception to remove Appendix or Acknowledgemnt section
     if (re.search('(?i)(Appendix|Acknowledgement)',citations)):
@@ -93,6 +94,6 @@ def extract_pdf(url):
       data = data.replace('\n', '')
 
 
-  references = [references] if references else 'NA'
+  # references = [references] if references else 'NA'
 
   return pd.Series(data=[abstract, conclusion, references, text], index=['Abstract', 'Conclusion', 'References', 'Text'])
