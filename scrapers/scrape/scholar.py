@@ -1,4 +1,3 @@
-!pip install scholarly
 import pandas as pd
 import numpy as np
 from scholarly import scholarly, ProxyGenerator
