@@ -16,8 +16,8 @@ db_fctns = {
             # 'wiley': scrape_wiley,
             # 'plos': scrape_plos,
             # 'crossref': scrape_crossref,
-            'google': scrape_google,
-            # 'scholar': scrape_scholar,
+#             'google': scrape_google,
+            'scholar': scrape_scholar
             # 'wikipedia': scrape_wikipedia
             }
 
