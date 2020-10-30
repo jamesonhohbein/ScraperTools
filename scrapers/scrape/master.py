@@ -2,12 +2,13 @@ from .. import logger
 from scrapers.extract.text import extract_text
 from scrapers.scrape.arxiv import scrape_arxiv
 from scrapers.scrape.core import scrape_core
+from scrapers.scrape.scholar import scrape_scholar
 import pandas as pd
 
 db_fctns = {
     'core': scrape_core,
             # 'elsevier': scrape_elsevier,
-            'arxiv': scrape_arxiv
+            'arxiv': scrape_arxiv,
             # 'dpla': scrape_dpla,
             # 'ncbi': scrape_ncbi
             # 'ieee': scrape_ieee
@@ -15,8 +16,8 @@ db_fctns = {
             # 'wiley': scrape_wiley,
             # 'plos': scrape_plos,
             # 'crossref': scrape_crossref,
-            # 'google': scrape_google,
-            # 'scholar': scrape_scholar,
+#             'google': scrape_google,
+            'scholar': scrape_scholar
             # 'wikipedia': scrape_wikipedia
             }
 
