@@ -14,7 +14,7 @@ def extract_scihub(url):
   '''
 
   # different scihub domains since some are not always working
-  bases = ['scihubtw.tw', 'sci-hub.st', 'sci-hub.scihubtw.tw', 'Sci-Hub.tw', 'Sci-hub.se', 'Sci-hub.do', 'sci-hub.ee']
+  bases = ['sci-hub.tf', 'scihubtw.tw', 'sci-hub.st', 'sci-hub.scihubtw.tw', 'Sci-Hub.tw', 'Sci-hub.se', 'Sci-hub.do', 'sci-hub.ee']
   
   #create sci-hub url base for requested paper
   for base in bases:
