@@ -5,7 +5,7 @@ import json
 # import time
 
 # api key registered at https://core.ac.uk/api-keys/register/
-api_key = 'oud4CkzvaGT8fXRnPF5cBQjM3iYObwWZ'
+api_key = 'pTfBZ0iahSFM3jdEO8IXUbPClyQuzVtH'
 
 # json.loads(requests.get(f'https://core.ac.uk:443/api-v2/articles/search/blockchain?apiKey={api_key}&doi=true&citations=true&language=en&pageSize=1').content)
 
