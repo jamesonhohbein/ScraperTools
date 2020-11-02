@@ -1,2 +1,7 @@
 __pycache__/
 *.txt
+log.txt
+*__pycache__/
+*.pyc
+scholar.log
+*.log
