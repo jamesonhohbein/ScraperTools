@@ -59,6 +59,8 @@ def scrape_scholar(query, pages=0, start_year=0):
           row['Link Type'] = 'Direct'
       else:
         row['Link Type'] = 'Sci-hub'
+      if 'books.google.com' in URL:
+        row['Link Type'] = 'NA'
 
 
       # Database - Type: String - the name of the database this link was retrieved. Google scholar? Arxiv? etc.
