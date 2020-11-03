@@ -47,8 +47,9 @@ def extract_scihub(url):
           link = link[2:]
           link = 'https://' + link
       return link
-  except Exception:
-      return
+    
+    except Exception:
+      conitinue
   
   # return link to pdf
-  return link
+#   return link
