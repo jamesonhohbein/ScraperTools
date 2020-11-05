@@ -1,7 +1,7 @@
 import pandas as pd
 import requests
 
-def get_springer(keyword: str, pages: int, year: int):
+def scrape_springer(keyword: str, pages: int, year: int):
     #set up query and send the request
     api_key = 'd5a3884a41c429e61ad829e67ba30568'
     url = 'http://api.springernature.com/meta/v2/json?q=subject:' + keyword + '%20type:Journal%20' + 'onlinedatefrom:' + str(year) + \
