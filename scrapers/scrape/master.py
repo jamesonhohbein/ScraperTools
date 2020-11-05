@@ -3,6 +3,7 @@ from scrapers.extract.text import extract_text
 from scrapers.scrape.arxiv import scrape_arxiv
 from scrapers.scrape.core import scrape_core
 from scrapers.scrape.scholar import scrape_scholar
+from scrapers.scrape.springer import scrape_springer
 import pandas as pd
 
 db_fctns = {
@@ -12,7 +13,7 @@ db_fctns = {
             # 'dpla': scrape_dpla,
             # 'ncbi': scrape_ncbi
             # 'ieee': scrape_ieee
-            # 'springer': scrape_springer,
+            'springer': scrape_springer,
             # 'wiley': scrape_wiley,
             # 'plos': scrape_plos,
             # 'crossref': scrape_crossref,
