@@ -5,6 +5,7 @@ from scrapers.scrape.core import scrape_core
 from scrapers.scrape.scholar import scrape_scholar
 from scrapers.scrape.springer import scrape_springer
 from scrapers.scrape.ieee import scrape_ieee
+from scrapers.scrape.plos import scrape_plos
 import pandas as pd
 
 db_fctns = {
@@ -16,7 +17,7 @@ db_fctns = {
             'ieee': scrape_ieee,
             'springer': scrape_springer,
             # 'wiley': scrape_wiley,
-            # 'plos': scrape_plos,
+            'plos': scrape_plos,
             # 'crossref': scrape_crossref,
 #             'google': scrape_google,
             'scholar': scrape_scholar
